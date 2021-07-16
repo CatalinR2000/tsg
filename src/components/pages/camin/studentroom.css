@@ -1,0 +1,40 @@
+.studentRoom{
+    flex: 4;
+}
+.studentContent{
+    display: flex;
+    justify-content: space-between;
+}
+.studentContentLeft{
+    flex: 1;
+    margin-left: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.studentContentRight{
+    flex: 3;
+}
+.studentRoomList{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 700px;
+}
+.studentFitter{
+    list-style: none;
+    padding: 10px;
+}
+.studentFitterItem{
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.studentFitterItem.active,
+.studentFitterItem:hover{
+    background-color: rgb(228, 228, 250);
+}
+.studentAddRoom{
+    height: 50px;
+    width: 100%;
+}
