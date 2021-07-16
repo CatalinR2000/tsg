@@ -7,7 +7,7 @@
 
 
 	$result = "";
-	$sql = $conn->query("UPDATE users SET sters='1' WHERE id='id'");
+	$sql = $conn->query("UPDATE users SET deleted='1' WHERE id='id'");
 
 	if(mysqli_query($conn, $sql)){
 		$request = "Ce bine....";
