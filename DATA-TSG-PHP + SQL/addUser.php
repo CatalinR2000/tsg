@@ -29,18 +29,6 @@
 
 	echo json_encode($result);
 	$conn->close();
-/*
-Nota practica:
-	- prezente+ activitate +1p;
-	- prezenta fara actifitate +0.75p;
-	- altefel 0p.
-Tema:
-	Sa se realizeze:
-		- tabelele oras, strazi, numar(cred eu);
-		- sa se referentieze la tabelele profesori si studenti;
-Caiet de practica:
-	- mijloc septembrie.
-*/
 ?>
 
 
